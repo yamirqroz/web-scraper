@@ -1,0 +1,28 @@
+{
+  "stores": [
+    {
+      "name": "Ejemplo Store",
+      "base_url": "https://ejemplo.com",
+      "search_url_pattern": "{base_url}/search?q={query}",
+      "product_container_selector": ".product-item",
+      "name_selector": ".product-name",
+      "price_selector": ".price",
+      "image_selector": ".product-image img",
+      "link_selector": "a",
+      "description_selector": ".description",
+      "enabled": true
+    },
+    {
+      "name": "amazon",
+      "base_url": "https://www.amazon.com/",
+      "search_url_pattern": "",
+      "product_container_selector": "ofertas",
+      "name_selector": "celular",
+      "price_selector": "10000",
+      "image_selector": "",
+      "link_selector": "",
+      "description_selector": null,
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "max_products_per_store": 50,
+  "request_delay_ms": 1000,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+  "auto_save_results": true,
+  "theme": "dark"
+}
