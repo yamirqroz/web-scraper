@@ -1,0 +1,26 @@
+[package]
+name = "yam-webs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+# GUI - vistas
+eframe = { version = "0.27.2", features = ["persistence"] }
+egui = "0.27.2"
+
+# runtime
+tokio = { version = "1", features = ["full"] }
+
+# http client para hacer peticiones
+reqwest = { version = "0.12", features = ["json", "blocking"] }
+
+# libreria pa parsear el html y scrapearlo
+scraper = "0.19.0"
+
+# libreria pa parsear URLS
+url = "2.5.0"
+
+# Para guardar configuraciones o datos pequeños
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
